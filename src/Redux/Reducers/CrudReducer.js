@@ -1,7 +1,8 @@
-import {ADD_USER, UPDATE_NAME, UPDATE_AGE, EDIT_USER} from '../ActionType';
+import {ADD_USER, UPDATE_NAME, UPDATE_AGE, EDIT_USER, BUTTON} from '../ActionType';
 
 const initailState = {    
     adduser:{name:"",age:""},
+    addbutton:true,
     users:[
         {name:"shiva",age:23, editable: false},
         {name:"venkat",age:24, editable: false},
@@ -20,6 +21,8 @@ const crudreducer = (state = initailState, action) =>{
             return{...state, users:payload}
         case EDIT_USER: 
             return {...state, users: payload}
+        case BUTTON :
+            return {...state, addbutton:payload}
         default :
             return state;    
     }

@@ -1,186 +1,195 @@
 body{
-              background-color: #F3E1E3;
-                 
+      background-color: #F3E1E3;
+         
 
-      }
+}
 .login{
-            
-            width: 53%;
-            margin: 0px auto;
-            border-radius: 2px;
+    
+    width: 53%;
+    margin: 0px auto;
+    border-radius: 2px;
 }
 .left{
-            text-align: center;
-             float: left;
-             background-color: white;
-             padding: 10px 70px;
-             width: 30%;
-             border-radius: 12px 0px 0px 12px;
-             
+    text-align: center;
+     float: left;
+     background-color: white;
+     padding: 10px 70px;
+     width: 30%;
+     border-radius: 12px 0px 0px 12px;
+     
 }
 .left .icon{
-            display: inline-block;
-            margin: 10px 0px;
+    display: inline-block;
+    margin: 10px 0px;
 }
 .icon img{
-            border-radius: 50%;
-            margin: 10px 5px;
+    border-radius: 50%;
+    margin: 10px 5px;
 }
 .left input{
-            background-color: #EFEFEF;
-            padding: 8px;
-            margin: 8px auto;
-            border:none;
-            width: 100%;
-            
+    background-color: #EFEFEF;
+    padding: 8px;
+    margin: 8px auto;
+    border:none;
+    width: 100%;
+    
 }
 .left button{
-              background-color:#FF4C2B ;
-              color: white;
-              padding: 8px;
-              width: 133px;
-               border-radius: 25px;
-               border: none;
-               margin: 15px;
-               cursor: pointer;
+      background-color:#FF4C2B ;
+      color: white;
+      padding: 8px;
+      width: 133px;
+       border-radius: 25px;
+       border: none;
+       margin: 15px;
+       cursor: pointer;
 
 }
 .left .para1{
-                  font-size: 13px;
+          font-size: 13px;
 }
 .right{
-            float: left;
-            background-color: #FF435F;
-            color: white;
-            width: 46%;
-            height: 376px;
-            padding: 10px;
-            text-align: center;
-            border-radius: 0px 12px 12px 0px;
+    float: left;
+    background-color: #FF435F;
+    color: white;
+    width: 46%;
+    height: 376px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px 12px 12px 0px;
 }
 .right h1{
-            margin: 95px 29px 15px 29px;
-            font-weight: 750;
+    margin: 95px 29px 15px 29px;
+    font-weight: 750;
 }
 .left input{
-            display: block;
+    display: block;
 }
 .link{
-            text-align: center;
-            background-color:white;
-            width: 65%;
-            margin: 20px auto;
-            border-radius: 15px;
+    text-align: center;
+    background-color:white;
+    width: 65%;
+    margin: 20px auto;
+    border-radius: 15px;
 }
 .link li{
-      list-style-type: none;
-      display: inline-block;
-      padding: 10px;
-      font-size: 20px;
-      border: 2px solid white ;
-      background-color:rebeccapurple;
-      margin: 10px;
-      border-radius: 20px;
+list-style-type: none;
+display: inline-block;
+padding: 10px;
+font-size: 20px;
+border: 2px solid white ;
+background-color:rebeccapurple;
+margin: 10px;
+border-radius: 20px;
 }
 .link a{
-      text-decoration: none;
-      color:white;
+text-decoration: none;
+color:white;
 }
 .link li:hover{
-      
-      background-color: skyblue;
+
+background-color: skyblue;
 }
 .inpdiv{
-      text-align: center;
-      
+text-align: center;
+
 }
 .inpdiv input{
-      padding: 10px;
-    font-size: 16px;
-    width: 41%;
-    background-color: #F2F3F8;
-    border: none;
-    font-weight: 700;
-    margin: 0px 10px;
+padding: 10px;
+font-size: 16px;
+width: 41%;
+background-color: #F2F3F8;
+border: none;
+font-weight: 700;
+margin: 0px 10px;
 }
 .inpdiv button{
-      background-color: #263C63;
-    color: white;
-    padding: 9px;
-    width: 80px;
-    border-radius: 10px;
-    border: 3px solid white;
+background-color: #263C63;
+color: white;
+padding: 9px;
+width: 80px;
+border-radius: 10px;
+border: 3px solid white;
 }
 .show {
-      width: 65%;
-      margin: 15px auto;
-      background-color: #F2F3F8;
-      padding: 8px;
-      color: #172C4A;
-      border-radius: 12px;
+width: 65%;
+margin: 15px auto;
+background-color: #F2F3F8;
+padding: 8px;
+color: #172C4A;
+border-radius: 12px;
 }
 .show img{
-      float: left;
+float: left;
 }
 .rght{
-     margin-left: 250px;
+margin-left: 250px;
 }
 .rght button{
-      color: white;
-      background-color: #263C63;
-      padding: 8px;
-      border-radius: 10px;
-      cursor: pointer;
-      margin: 22px 0px;
+color: white;
+background-color: #263C63;
+padding: 8px;
+border-radius: 10px;
+cursor: pointer;
+margin: 22px 0px;
 
 }
 .show .errimg{
-      float: left;
-      width: 22%;
-    height: 250px;
-    background-color: white;
-    border-radius: 6px;
-    text-align: center;
-    
+float: left;
+width: 22%;
+height: 250px;
+background-color: white;
+border-radius: 6px;
+text-align: center;
+
 }
 .loader{
-      width: 100%;
-      height: 100%;
+width: 100%;
+height: 100%;
 }
 
 .set{
-      width: 50%;
-      background-color:peru;
-      color: white;
-      margin: 0px auto;
-      border-radius: 8px;
-      padding: 10px;
+width: 50%;
+background-color:peru;
+color: white;
+margin: 0px auto;
+border-radius: 8px;
+padding: 10px;
 }
 .legend{
-      background-color: red;
-      color: white;
-      padding: 5px;
-      border-radius: 5px;
+background-color: red;
+color: white;
+padding: 5px;
+border-radius: 5px;
 }
 .result{
-      width: 50%;
-      margin: 10px auto;
-      border: 2px solid white;
-      background-color: white;
-      padding: 15px;
-      
-      
+width: 50%;
+margin: 10px auto;
+border: 2px solid white;
+background-color: white;
+padding: 15px;
+
+
 }
 .btn22{
-      margin: 10px 0px 10px 180px;
-    color: white;
-    background: blue;
-    cursor: pointer;
+margin: 10px 0px 10px 180px;
+color: white;
+background: blue;
+cursor: pointer;
 
 }
 
+.thead-crud td{
+padding: 4px 20px;
+background:#4caf50;
+color: white;
+width: 15%;
+}
+.tbody-crud tr:nth-child(even){background-color:turquoise;color:red}
+
+.tbody-crud tr:nth-child(odd){background-color:palevioletred; color: white;}
 
 .clear{
-          clear: both;
+  clear: both;
 }
 

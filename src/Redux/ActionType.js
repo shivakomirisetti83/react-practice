@@ -31,4 +31,5 @@ export const ADD_USER = 'ADD_USER';
 export const UPDATE_NAME = 'UPDATE_NAME';
 export const UPDATE_AGE = 'UPDATE_AGE';
 export const EDIT_USER = 'EDIT_USER';
+export const BUTTON = 'BUTTON';
 

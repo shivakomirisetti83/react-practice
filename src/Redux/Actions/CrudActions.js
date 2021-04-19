@@ -1,4 +1,4 @@
-import {ADD_USER, UPDATE_NAME, UPDATE_AGE, EDIT_USER} from '../ActionType';
+import {ADD_USER, UPDATE_NAME, UPDATE_AGE, EDIT_USER, BUTTON} from '../ActionType';
 
 
 const adduser = (payload) => ({
@@ -20,11 +20,17 @@ const edit = (payload) =>({
     payload
 })
 
+const button = (payload) =>({
+    type:BUTTON,
+    payload
+})
+
 const crudActions ={
     adduser,
     updatename,
     updateage,
-    edit
+    edit,
+    button,
 }
 
 export default crudActions;
